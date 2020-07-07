@@ -12,8 +12,22 @@ File Encoding         : 65001
 
 Date: 2020-07-06 08:34:00
 */
-
-SET FOREIGN_KEY_CHECKS=0;
+INSERT INTO `t_checkgroup` VALUES ('5', '0001', '一般检查', 'YBJC', '0', '一般检查', '无');
+INSERT INTO `t_checkgroup` VALUES ('6', '0002', '视力色觉', 'SLSJ', '0', '视力色觉', null);
+INSERT INTO `t_checkgroup` VALUES ('7', '0003', '血常规', 'XCG', '0', '血常规', null);
+INSERT INTO `t_checkgroup` VALUES ('8', '0004', '尿常规', 'NCG', '0', '尿常规', null);
+INSERT INTO `t_checkgroup` VALUES ('9', '0005', '肝功三项', 'GGSX', '0', '肝功三项', null);
+INSERT INTO `t_checkgroup` VALUES ('10', '0006', '肾功三项', 'NGSX', '0', '肾功三项', null);
+INSERT INTO `t_checkgroup` VALUES ('11', '0007', '血脂四项', 'XZSX', '0', '血脂四项', null);
+INSERT INTO `t_checkgroup` VALUES ('12', '0008', '心肌酶三项', 'XJMSX', '0', '心肌酶三项', null);
+INSERT INTO `t_checkgroup` VALUES ('13', '0009', '甲功三项', 'JGSX', '0', '甲功三项', null);
+INSERT INTO `t_checkgroup` VALUES ('14', '0010', '子宫附件彩超', 'ZGFJCC', '2', '子宫附件彩超', null);
+INSERT INTO `t_checkgroup` VALUES ('15', '0011', '胆红素三项', 'DHSSX', '0', '胆红素三项', null);
+INSERT INTO `t_checkgroup` VALUES ('16', '0008', '放血检查', 'fxjc', '0', '式工', 'asdfasdfasfd');
+INSERT INTO `t_checkgroup` VALUES ('17', '0088', '员工福利', 'fxjc', '0', '式工', 'asdfasdfasfd');
+INSERT INTO `t_checkgroup` VALUES ('18', '0008', '放血检查', 'fxjc', '0', '式工', 'asdfasdfasfd');
+INSERT INTO `t_checkgroup` VALUES ('19', '0008', '大内检查', 'dnjc', '0', '展示武功', '天外飞仙');
+INSERT INTO `t_checkgroup` VALUES ('21', '老王', null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for t_checkgroup
